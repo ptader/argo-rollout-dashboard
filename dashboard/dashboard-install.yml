@@ -133,7 +133,4 @@ spec:
         name: argo-rollouts-dashboard
         ports:
         - containerPort: 3100
-        env:
-        - name: BASE_HREF
-          value: /rollouts
       serviceAccountName: argo-rollouts-dashboard
