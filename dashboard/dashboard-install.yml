@@ -156,10 +156,3 @@ spec:
             name: argo-rollouts-dashboard
             port:
               number: 3100
-      - path: /api
-        pathType: ImplementationSpecific
-        backend:
-          service:
-            name: argo-rollouts-dashboard
-            port:
-              number: 3100
